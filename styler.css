@@ -20,7 +20,18 @@
     }
     #section1,h1{
       text-align: center;
-      font-size: 200%;
+      font-size: 130%;
+      font-family: Trebuchet MS;
+    }
+    footer{
+      font-family: Georgia;
+      text-align: center;
+      margin-top: 10%;
+      color: #fff;
+    }
+    
+    a.company:hover{
+      color:pink !important;
     }
 
     /* entypo */
