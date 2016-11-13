@@ -36,7 +36,15 @@
     }
     
     a.company:hover{
-      color:pink !important;
+      color:#024da1 !important;
+    }
+    a.company{
+      color: #afd135 !important;
+      text-decoration: none !important;
+    }
+    a.company:visited{
+      color: green;
+      text-decoration: none !important;
     }
  
 .demo{
