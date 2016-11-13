@@ -9,39 +9,24 @@
   <!--<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">-->
   <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 
-  
-<!--
-  <link href="assets/animate.css" rel="stylesheet">
-  <script async src="assets/jquery.lettering.js"></script>
-  <script async src="assets/jquery.fittext.js"></script>
-  <script async src="assets/jquery.textillate.js"></script>
-  <script async src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
-  -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" type="text/css" href="styler.css">
   <link rel="stylesheet" type="text/css" href="http://weloveiconfonts.com/api/?family=brandico">
-  </head>
+
+  <script async src="vendors/jquery.easings.min.js"></script>
+
+
+<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+  <!--<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>-->
+
+  <script type="text/javascript" src="jquery.fullPage.js"></script> 
+</head>
 
   
 
  
 
   <body style="background-color:#fff">
-    <!--<nav class="navbar navbar-inverse navbar-static-top" data-content-field="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-              <a class="navbar-brand" href="#" style="color:#ffffff; margin-left:150px;"><strong>Aditya Bharti</strong></a>
-          </div>
-          
-          <ul id="menu" class="nav navbar-nav navbar-right" style="margin-right:150px">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-    </nav>
--->
-
    
 
 <div id="fullpage">
@@ -85,13 +70,7 @@
 
 
 <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-<script async src="vendors/jquery.easings.min.js"></script>
 
-
-<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
-<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
-
-<script type="text/javascript" src="jquery.fullPage.js"></script> 
 <script type="text/javascript">
 
    $(document).ready(function() {
@@ -110,29 +89,6 @@
 
     });
   </script>
-
-
- <!-- <script>
-
-$(function () {
-    $('.demo').textillate({
-      loop: true,
-      delay: 5,
-      in:{
-        effect: 'tada',
-        sync: true
-      },
-      out:{
-        effect: 'tada',
-        sync: true
-      }
-      
-    });
-})-->
-
-</script>
-
-
 
   </body>
 </html>
