@@ -37,9 +37,9 @@ html {
 .soc a {
   position: relative;
   height: 96px;
-  height: 2.0rem;
+  height: 4.0rem;
   width: 96px;
-  width: 2.0rem;
+  width: 4.0rem;
 }
 }
 .soc svg {
