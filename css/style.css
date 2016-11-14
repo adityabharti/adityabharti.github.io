@@ -28,9 +28,19 @@ html {
 .soc a {
   position: relative;
   height: 96px;
-  height: 5.0rem;
+  height: 9.6rem;
   width: 96px;
-  width: 5.0rem;
+  width: 9.6rem;
+}
+
+@media only screen and (max-device-width: 1100px) {
+.soc a {
+  position: relative;
+  height: 96px;
+  height: 3.0rem;
+  width: 96px;
+  width: 3.0rem;
+}
 }
 .soc svg {
   height: 100%;
