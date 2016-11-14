@@ -28,9 +28,9 @@ html {
 .soc a {
   position: relative;
   height: 96px;
-  height: 9.6rem;
+  height: 5.0rem;
   width: 96px;
-  width: 9.6rem;
+  width: 5.0rem;
 }
 .soc svg {
   height: 100%;
